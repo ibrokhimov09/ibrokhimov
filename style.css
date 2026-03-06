@@ -1,231 +1,186 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    display: grid;
+}
 header{
-    background: white;
+    background: rgba(1, 0, 1, 1);
+    height: 60vh;
+    width: 100%;
 }
 .logo{
     position: relative;
-    right: 40px;
-    width: 65px;
+    left: 40px;
 }
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-}
-nav ul{
-    display: flex;
-    list-style: none;
-    gap: 83px;
-    font-family: "Permament Marker"  Lora;
+    background: transparent;
 }
 nav a{
-    text-decoration: none;
-    background: transparent;
+    display: inline-block;
     font-size: 20px;
-    color: #333333;
-    font-family: "Permament Marker"  Open Sans;
-}
-.sctn{
-    background: rgba(248, 177, 1, 1);
-}
-.kattadiv{
-    display: flex;
-    justify-content: center;
-    margin-left: 7rem;
-}
-.kichikdiv{
-    width: 450px;
-}
-.kichikdiv h1{
-    font-size: 55px;
-    color: white;
-    line-height: 60px;
-    margin-top: 50px;
-}
-.kichikdiv p{
-    font-size: 16px;
-    color: white;
-}
-.btn{
-    width: 140px;
-    height: 40px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 500px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: wheat;
     background: transparent;
-    color: rgb(128, 37, 37);
-    background: white;
-    border: 1px solid gray;
-    border-radius: 8px;
-    margin-top: 12px;
+    font-size: 10px;
 }
-.image{
+.navul1{
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+    list-style: none;
+    color: white;
+}
+.navul1 a:hover{
+    font-size: 20px;
+    transition: 0.5s;
+    text-decoration: none;
+    color: #EEEEFF;
+}
+.navul2{
     position: relative;
-    padding: 30px 0 0 100px;
-}
+    right: 40px;
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+    list-style: none;
+    color: rgba(128, 128, 128, 1);
 
-.bigdiv{
-    position: relative;
-    margin-top: 10rem;
-    display: flex;
+}
+.stword{
+    display: grid;
     justify-content: center;
-    gap: 30pc;
-}
-.smalldiv{
-    width: 450px;
-}
-.smalldiv h1{
-    font-size: 65px;
-    color: rgb(34, 31, 31);
-    line-height: 25px;
-    margin-top: 50px;
-}
-.smalldiv p{
-    font-size: 17px;
-    padding: 30px 0 2rem;
-}
-.btn2{
-    width: 140px;
-    height: 40px;
-    background: transparent;
-    color: rgb(128, 37, 37);
-    background: white;
-    border: 1px solid gray;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-.ourmn{
-    font-size: 24px;
-    position: relative;
-    margin: 8cm 0 2cm 4cm;
-}
-.threeimg{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    gap: 4cm;
-}
-.humburger{
-    width: 295px;
-}
-.bb{
-    width: 310px;
-}
-.humburger h1{
-    font-size: 25px;
-    text-align: center;
-}
-.humburger p{
-    text-align: left;
-}
-.bynow{
-    width: 80px;
-    height: 40px;
-    font-size: 16px;
-    border: 1px solid #111111;
-    border-radius: 8px;
     color: white;
-    background: #222222;
+    text-align: center;
+    margin: 80px;
 }
-.stn{
-    background-image: url(./meat.svg);
-    background-size: cover;
-    height: 100vh;
-    margin-top: 30px;
+.stword h1{
+    font-size: 60px;
+    color: white;
+    margin: 100px 0 30px;
 }
-.smalldiv1{
+.stword p{
+    font-size: 20px;
+    margin: 30px;
+}
+.stimg{
+    width: 100%;
+    background: transparent;
+}
+.stimg{
+    transition: .3s ease ;
+}
+.sctn2{
+    background: rgba(1, 0, 1, 1);
+    color: white;
+    height: 200vh;
+    margin-top: -10px;
+}
+.bigdv{
+    position: absolute;
+    padding: 40rem 17rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.smalldv h1{
     position: relative;
-    padding: 10rem 5rem;
+    right: 0;
+    margin-top: -62px;
+    font-size: 20px;
+    font-family: "Permament Marker", Roboto;
+    line-height: 30px;
+    color: white;
+}
+.smalldv h3{
+    position: relative;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Permament Marker", Roboto;
+}
+.smalldv2{
+    position: relative;
+    left: 30px;
+    line-height: 40px;
+    margin: 0 80px;
+}
+.raketa{
+    position: absolute;
+    left: 60rem;
+    margin: -40px 100px;
+}
+.textword{
+    position: absolute;
+    margin: 80rem 17rem;
     width: 450px;
 }
-.smalldiv1 h1{
-    font-size: 65px;
-    color: rgb(211, 208, 203);
-    line-height: 25px;
-    margin-top: 50px;
+.textword h1{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 40px 0;
+    line-height: 30px;
+    font-family: "Permament Marker", Roboto;
 }
-.smalldiv1 p{
-    font-size: 17px;
-    padding: 30px 0 2rem;
-    color: rgb(211, 208, 203);
-}
-.btn3{
-    width: 140px;
-    height: 40px;
-    background: transparent;
-    color: rgb(128, 37, 37);
-    background: rgb(238, 238, 11);
-    border: 1px solid gray;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-.card{
-    background: white;
-    text-align: center;
-    overflow: hidden;
-}
-.card h1{
-    font-size: 50px;
-    padding-top: 40px;
-} 
-.card p{
-    position: relative;
-    margin: 0 500px;
-    width: 480px;
-    height: 110px;
-    padding-top: 40px;
-    background: yellow;
-    font-size: 18px;
-}
-.png{
-    position: relative;
-    bottom: 30px;
-}
-.png img{
-    width: 50px;
-    border: 2px solid white;
-    border-radius: 50%;
-    background: blue;
-    box-shadow: 2px 2px  10px white;
-}
-.stars{
-    display: flex;
-    justify-content: center;
-    gap: 7px;
-    margin-top: -10px;
-    color: orange;
+.textword p{
+    font-size: 15px;
+    line-height: 22px;
+    font-family: "Permament Marker", Roboto;
 }
 footer{
-    display: flex;
-    justify-content: space-around;
-    background: rgba(25, 14, 4, 1);
-}
-.footerdv{
-    width: 140px;
-}
-.footerdv h3{
-    color: rgb(216, 148, 21);
-    font-style: bold;
-    margin: 60px 0 30px;
-    background: transparent;
-    cursor: pointer;
-} 
-.footerdv h3:hover{
-    transition: 0.5s;
-    color: rgb(17, 88, 175);
-}
-.footerdv p{
-    width: 130px;
+    height: 40vh;
+    display: grid;
+    background: rgba(1, 0, 1, 1);
     color: white;
-    line-height: 20px;
 }
-.ricons{
+.endlogo{
+    display: block;
     position: relative;
+    margin-top: -50px -20px;
+    width: 200px;
+}
+.dive{
     display: flex;
-    gap: 12px;
+    justify-content: center;
+    line-height: 7rem;
+    gap: 50px;
+    font-size: 20px;
 }
-.ricons a{
+.dive a{
     text-decoration: none;
-    padding: 0 0 100px;
+    background: transparent;
+    color: antiquewhite;
+    align-items: center;
+    cursor: pointer;
 }
-.ricons i{
-    font-size: 50px;
-    color: orange;
+.dive a:hover{
+    color: aqua;
+}
+.nn a{
+    text-decoration: none;
+    cursor: wait;
+}
+.endbtn{
+    background: black ;
+    width: 360px;
+    height: 70px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px 0 20px 0;
+    font-family: "Permament Marker",Lora;
+}
+.endbtn:hover{
+    transition: 0.8s;
+    transform: translateY(-13px) translate3d(20px);
+    background: #7a7a7a;
+    color: #222222;
+    font-size: 20px;
 }
